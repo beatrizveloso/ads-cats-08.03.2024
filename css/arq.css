@@ -8,12 +8,13 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #92b5f5;
+    background-color: #addeff;
 }
 
 header {
     width: 100%;
-    background-color: #3762d6;
+    background-color: #73bbff;
+    color: #052542;
     height: 50px;
     justify-content: center;
     display: flex;
@@ -23,19 +24,20 @@ header {
 .container{  
     border: 2px solid rgb(26, 85, 153);
     border-radius: 15px;
-    margin-top: 5%;
-    width: 500px;
+    margin: 15px auto;
+    width: 300px;
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.imagens img{
+figure img{
+    padding-top: 15px;
     height: 250px;
     width: 250px;
 }
 
-p {
+figcaption {
     font-size: 18px;
 }
