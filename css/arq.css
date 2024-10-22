@@ -13,26 +13,32 @@ body{
 
 header {
     width: 100%;
-    background-color: #73bbff;
-    color: #052542;
+    background-color: #052542;
+    color: #8fb8df;
     height: 50px;
     justify-content: center;
     display: flex;
     align-items: center;
 }
 
-.container{  
-    border: 2px solid rgb(26, 85, 153);
-    border-radius: 15px;
-    margin: 15px auto;
-    width: 300px;
-    justify-content: center;
+.container {
+    width: 800px;
+    margin: auto;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-figure img{
+figure{  
+    background-color: #8fb8df;
+    width: 250px;
+    margin: 15px auto;
+    border: 2px solid rgb(26, 85, 153);
+    padding: 10px;
+}
+
+img{
+    border-radius: 15px;
+    object-fit: cover;
     padding-top: 15px;
     height: 250px;
     width: 250px;
@@ -40,4 +46,20 @@ figure img{
 
 figcaption {
     font-size: 18px;
+    text-align: center;
+    font-style: italic;
+}
+
+footer {
+    background-color: #052542;
+    color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+input:hover {
+    background-color: #8fb8df;
+    opacity: 30%;
 }
